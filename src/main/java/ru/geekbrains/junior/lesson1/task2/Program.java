@@ -72,10 +72,10 @@ public class Program {
                         System.out.println("Список товаров:");
                         market.printThings(Thing.class);
                     }
-                    case 2 -> CreateCart(Snack.class, market);
-                    case 3 -> CreateCart(SemiFinishedFood.class, market);
-                    case 4 -> CreateCart(HealthyFood.class, market);
-                    case 5 -> CreateCart(Food.class, market);
+                    case 2 -> createCart(Snack.class, market);
+                    case 3 -> createCart(SemiFinishedFood.class, market);
+                    case 4 -> createCart(HealthyFood.class, market);
+                    case 5 -> createCart(Food.class, market);
                 }
 
             } else {
@@ -87,7 +87,7 @@ public class Program {
 
     }
 
-    static <T extends Food> void CreateCart(Class<T> clazz, UMarket market) {
+    static <T extends Food> void createCart(Class<T> clazz, UMarket market) {
         Cart<T> cart = new Cart<>(clazz, market);
         while (true) {
             System.out.println("Список доступных товаров:");
