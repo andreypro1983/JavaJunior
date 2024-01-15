@@ -144,8 +144,6 @@ public class QueryBuilder {
     }
 
     /**
-     * TODO: Доработать запрос в рамках домашней работы
-     *
      * @param clazz
      * @param primaryKey
      * @return

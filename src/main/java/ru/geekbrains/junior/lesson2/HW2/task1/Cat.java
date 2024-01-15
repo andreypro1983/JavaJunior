@@ -1,6 +1,6 @@
 package ru.geekbrains.junior.lesson2.HW2.task1;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
     private String eyeColor;
     private String owner;
 
@@ -10,11 +10,11 @@ public class Cat extends Animal{
         this.owner = owner;
     }
 
-    public void play(){
-        System.out.println(getName() + " начала играть с "+ owner );
+    public void play() {
+        System.out.println(getName() + " начала играть с " + owner);
     }
 
-    private void makeSound(){
+    private void makeSound() {
         System.out.println("Мяу мяу");
     }
 

@@ -13,7 +13,7 @@ public abstract class Animal {
         return age;
     }
 
-    public  Animal(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }

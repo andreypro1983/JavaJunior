@@ -1,6 +1,6 @@
 package ru.geekbrains.junior.lesson2.HW2.task1;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
 
     private String breed;
     private int maxSpeed;
@@ -11,11 +11,11 @@ public class Dog extends Animal{
         this.maxSpeed = maxSpeed;
     }
 
-    private void makeSound(){
+    private void makeSound() {
         System.out.println("Гав гав гав");
     }
 
-    public void run(){
+    public void run() {
         System.out.println(getName() + " побежала");
     }
 

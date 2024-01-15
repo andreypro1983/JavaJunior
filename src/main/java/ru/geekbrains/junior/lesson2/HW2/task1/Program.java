@@ -1,7 +1,5 @@
 package ru.geekbrains.junior.lesson2.HW2.task1;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
