@@ -16,6 +16,7 @@ public class Program {
         for (int i = 0; i < animals.length; i++) {
             try {
                 System.out.println("Animal_№" + (i + 1) + ":");
+
                 // Выведение на экран информацию о каждом объекте.
                 printAnimalInfo(animals[i]);
 
@@ -23,7 +24,10 @@ public class Program {
                 // Вызовите метод "makeSound()" у каждого объекта, если такой метод присутствует
                 execMakeSound(animals[i]);
                 System.out.println();
-            } catch (Exception e) {
+            }catch (NoSuchMethodException e){
+                System.out.println("Вызываемый метод не обнаружен");
+                System.out.println();
+            }catch (Exception e) {
                 System.out.println("Что то пошло не так");
             }
         }

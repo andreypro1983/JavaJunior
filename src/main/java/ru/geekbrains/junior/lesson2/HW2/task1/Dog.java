@@ -11,9 +11,9 @@ public class Dog extends Animal {
         this.maxSpeed = maxSpeed;
     }
 
-    private void makeSound() {
-        System.out.println("Гав гав гав");
-    }
+//    private void makeSound() {
+//        System.out.println("Гав гав гав");
+//    }
 
     public void run() {
         System.out.println(getName() + " побежала");
