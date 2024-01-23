@@ -9,7 +9,7 @@ import java.util.Random;
 public class Course {
 
     private static final String[] titles = new String[] {"Информатика","Экономика","Физика","Английский","Математика","История"};
-    private static Random rnd = new Random();
+    private static final Random rnd = new Random();
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
